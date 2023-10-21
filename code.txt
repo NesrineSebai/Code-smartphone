@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page de Produits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nos Produits</h1>
+    </header>
+    <main>
+        <section class="product">
+            <img src="smartphone-huawei-nova-y61-4g-4-go-64-go-double-sim-noir-abonnement-ott-pro-12-mois-offert.jpg" alt="smartphone huawei nova y61">
+            <div>
+                <h2>Smartphone huawei nova y61</h2>
+                <p>Double SIM - Ecran 6.52"LCD IPS HD+ 60 Hz - Résolution 1600 x 720 - Processeur HiSilicon Kirin 710A Octa Core, 4x 1.7 Ghz + 4x 2.0 Ghz - EMUI 12 - RAM 4 Go - Mémoire 64 Go - Appareil photo Triple 50 MP f/1.8 + 2 MP f/2.4 (Macro) + 2 MP f/2.4 (Profondeur) (Arriére), 5 MP f/2.2 (Avant) - Wifi - 4G - Bluetooth 5.1 - Lecteur d'empreinte digitale - Batterie 5000 mAh - Couleur Noir - Garantie 1 an + ABONNEMENT OTT PRO 12 MOIS OFFERT  </p>
+                <p>Prix : 650 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="smartphone-huawei-nova-y90-4g-6-go-128-go-double-sim-bleu-abonnement-iptv-12mois.jpg" alt="smartphone huawei nova y90">
+            <div>
+                <h2>Smartphone huawei nova y90</h2>
+                <p>Double SIM - Ecran 6.7" IPS LCD Full HD+ 90Hz - Résolution 1080 x 2388 - Processeur Qualcomm SM6225 Snapdragon 680 4G, Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver), Adreno 610 - EMUI 12 - RAM 6 Go - Mémoire 128 Go - Appareil photo Triple 50 MP + 2 MP + 2 MP (arriére), 8 MP (Avant) - Wifi - 4G - Bluetooth 5.0 - Lecteur d'empreinte digitale - Batterie 5000 mAh - HUAWEI SuperCharge (Max 40 W) - 50% en 30 minutes - Couleur Bleu - Garantie 1 an + Abonnement IPTV 12mois</p>
+                <p>Prix : 850 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="smartphone-huawei-nova-y91-4g-8-go-256-go-silver-huawei-band-7-haut-parleur-bluetooth.jpg" alt="smartphone huawei nova y91">
+            <div>
+                <h2>Smartphone huawei nova y91</h2>
+                <p>Double SIM - Écran 6,95" LCD - Résolution FHD+ ( 2376 × 1080 pixels) - Taux de rafraîchissement 90Hz - Taux d'échantillonnage tactile de 270 Hz - Qualcomm Snapdragon 680 (4 × Cortex-A73 basés sur 2,4 GHz + 4 × Cortex-A53 basés sur 1,9 GHz) - Système opérateur EMUI 13 - RAM 8 Go - Mémoire 256 Go - Caméra arrière: Appareil photo haute résolution 50 MP (ouverture F1.8), Caméra de profondeur 2 MP (ouverture F2.4) - Caméra frontale: Appareil photo selfie 8 MP (ouverture F2.0) - Batterie 7000 mAh</p>
+                <p>Prix : 1240 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="smartphone-samsung-galaxy-a14-4-go-64-go-silver.jpg" alt="smartphone samsung galaxy a14">
+            <div>
+                <h2>Smartphone samsung galaxy a14</h2>
+                <p>Double SIM - Ecran 6.6" Full HD (1080 x 2408 px) - Processeur : Mediatek MT6769 Helio G80 Octo-Core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55) - RAM 4 Go - Mémoire 64 Go - Android 13 - Caméra arrière Quad 50 MP + 2.0 MP + 2.0 MP, Caméra frontale 13 MP - Lecteur d'empreintes Digitales - 4G - Bluetooth 5.2 - GPS - Wifi - Batterie 5000 mAh - charge rapide 15W - Couleur Silver - Garantie 1 an.</p>
+                <p>Prix : 640 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="smartphone-samsung-galaxy-a54-6-go-128-go-blanc.jpg" alt="smartphone samsung galaxy a54">
+            <div>
+                <h2>Smartphone samsung galaxy a54</h2>
+                <p>Double Sim - Ecran 6.4" Super AMOLED, Full HD+ 1080 x 2400 pixels - Taux de rafraichissement : 120 Hz - Processeur Exynos 1380 Octa-Core (4x2.4 GHz Cortex-A78 et 4x2.0 GHz Cortex-A55) - RAM 6 Go - Mémoire 128 Go - Android 13 + Samsung One UI 5.1 - Appareil Photo 50MP (f/1.8, OIS) + 12 MP + 5 MP(f/2.4), autofocus, Flash, panorama, vidéo 4K, caméra frontale de 32 MP (f/2.2) - Connectivité BlueTooth 5.3 - Wi-Fi - Wi-Fi Direct - USB Type C - 5g - Lecteur d'empreinte digitale </p>
+                <p>Prix : 1874 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="-smartphone-samsung-galaxy-z-flip-4-8-go-128-go-gris.jpg" alt="smartphone samsung galaxy z flip">
+            <div>
+                <h2>Smartphone samsung galaxy z flip</h2>
+                <p>Ecran intérieur : Dynamic AMOLED, 6.7" x2, Infinity-O, 120 Hz adaptatif, 425 ppp, Full HD+ de 1080 x 2640 pixels, technologie Ultra Thin Glass, HDR10+ - Ecran extérieur : Super AMOLED, 1.9", résolution 260 x 512 pixels - Processeur Qualcomm Snapdragon 8+ Gen 1 (3.18 GHz + 2.7 GHz + 2 GHz) - RAM 8 Go - Mémoire 128 Go - Haut parleur Tuned by AKG - Android 12 (surcouche Samsung One UI 4.1.1) - Caméras arrière : Double capteur 12 MP (ouverture f/1.8, FOV 83°) + 12 MP (Dual Pixel, ultra grand angle, ouverture f/2.2, FOV 123°), HDR10+, stabilisation optique, optimiseur de scène, cadrage auto, vidéo 4K@60fps - Caméra frontale 10 MP (ouverture f/2.4)</p>
+                <p>Prix : 3900 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="smartphone-apple-iphone-11-64-go-noir.jpg" alt="smartphone apple iphone 11">
+            <div>
+                <h2>Smartphone apple iphone 11</h2>
+                <p>Ecran 6.1" Liquid Retina HD IPS (828 x 1792px) - Etanche IP68 - Processeur Apple A13 Bionic Hexa-Core - RAM 4 Go - Mémoire 64 Go - Système Apple iOS 13 - 2x Appareils Photos: 12 Megapixels F/2.4 (ultra grand-angle), F/1.8 (grand-angle) (Arrière), 12MP TrueDepth F/2.2 (Avant) - Wifi - 4G+ - Bluetooth 5.0 - NFC - Batterie 3110 mAh - Garantie 1 an</p>
+                <p>Prix : 2260 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+
+	<section class="product">
+            <img src="smartphone-apple-iphone-14-pro-5g-128-go-purple.jpg" alt="smartphone apple iphone 14 pro">
+            <div>
+                <h2>Smartphone apple iphone 14 pro</h2>
+                <p>Ecran Super Retina XDR OLED 6.1" - Résolution 1179 x 2556 px - Processeur Apple A16 Bionic Hexa-Core - Stockage 128 Go - 3x Appareils Photo Arrière 48 Mpixel - Mégapixels (grand‑angle et ultra grand‑angle Grand‑angle: ouverture F/1,5 Ultra grand‑angle : ouverture F/2,4 et champ de vision de 120°) - Système iOS 16 - 5G - Wifi - NFC - Bluetooth 5.3 - Wi-Fi 6 - Dimensions 147.5 x 71.5 x 7.85 mm - Couleur Purple - Garantie 1 an</p>
+                <p>Prix : 5400 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+	
+	<section class="product">
+            <img src="smartphone-apple-iphone-14-pro-5g-256-go-gold.jpg" alt="smartphone apple iphone 14 pro">
+            <div>
+                <h2>Smartphone apple iphone 14 pro</h2>
+                <p>Ecran Super Retina XDR OLED 6.1" - Résolution 1179 x 2556 px - Processeur Apple A16 Bionic Hexa-Core - Stockage 256 Go - 3x Appareils Photo Arrière 48 Mpixel - Mégapixels (grand‑angle et ultra grand‑angle Grand‑angle: ouverture F/1,5 Ultra grand‑angle : ouverture F/2,4 et champ de vision de 120°) - Système iOS 16 - 5G - Wifi - NFC - Bluetooth 5.3 - Wi-Fi 6 - Dimensions 147.5 x 71.5 x 7.85 mm - Couleur Gold - Garantie 1 an</p>
+                <p>Prix : 5850 DT</p>
+                <button>Acheter</button>
+            </div>
+        </section>
+    </main>
+  
+</body>
+</html>
